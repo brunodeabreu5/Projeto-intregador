@@ -1,0 +1,142 @@
+html{
+
+	height: 100%;
+
+}
+
+body{
+      
+    background-image: url(img7.jpg);                  /*imagem de fundo*/
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #666666;
+    font-family: "Comfortaa", sans-serif;
+    position: fixed; 
+    width: 100%;
+    height: 100%;
+    font-weight: bold;
+    margin:auto;
+
+
+}
+    
+#login {
+    width: 620px;                                  /*bordas */ 
+    height: 700px;                                 /*bordas */
+    border: 6px solid black;                     /*bordas */
+    border-radius: 100px 100px 100px 100px;
+    color: #fff;
+    background-color: #333333;                /*transparencia */
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 120px 50px;
+    font-weight: bold;
+}   
+
+h1 {
+    font-size: 27px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 25px;   
+    
+}
+
+.usuario {                         /*imagem logo da empresa*/
+    border-radius: 100%;
+    position: absolute;
+    top: -70px;
+    left: 200px;
+          
+}
+
+input{
+    display: block;
+    width: 400px;
+    margin: 2px;   /*espaçamento entre os cadastros*/
+    border-bottom: solid white;
+    background-color: #ffffff;
+    outline: none;
+    height: 20px;
+    color: black;
+    font-size: 25px;
+   margin-bottom: 20px;
+       
+}
+
+label{  
+    
+    font-size: 25px;
+    font-weight: bold;
+    
+     
+    
+}
+
+div#sex input{
+    display: inline;
+    width: 15px;
+    margin: 7px;   /*espaçamento entre os cadastros*/
+    border-bottom: solid white;
+    background-color: #ffffff;
+    outline: none;
+    height: 20px;
+    color: black;
+    font-size: 25px;
+    padding: 10px;
+    margin-bottom: 20px;
+    
+   
+}
+
+div#pais select{
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border: 3px solid black;
+    display: inline;
+    font-size: 15px;
+    padding: 10px;
+    height: 45px;
+    }
+    
+div#b input[type="submit"]:hover{   /*controla botao login*/
+    cursor: pointer;
+    background: red;
+    transition: 0.2s
+    
+  }
+
+div#b a{                              /*controla cadastrar veiculo*/
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 10px;
+    color: #fff;
+    text-align: right;
+    display: block;
+     
+}
+
+div#b a:hover{                        /*cores e transparencia do cadastrar veiculo*/
+    transition: 0.2s;
+    color: red;
+   }
+   
+ div#b input {  
+    display: block;
+    width: 150px;
+    height: 40px;
+    margin: 10px;
+    margin-top: 10px;
+    font-style: italic;
+    border-radius: 30px;
+    border: 3px solid black;
+    margin-left: 180px;    
+    
+
+      
+}
