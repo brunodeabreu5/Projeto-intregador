@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br" dir="ltr">
+    <head>
+        <link rel="stylesheet" type="text/css" href="estilo2.css">
+        <link rel="shortcut icon" href="imagem/icon/favicon.ico" />
+        <meta name="viewport" content="width=650, initial-scale=1">
+        <meta charset="UTF-8"> 
+        <title>Cadastro</title> 
+     </head>
+     <body>
+         <form>
+         <div id="login"> 
+             <img src="logo.png" class="usuario" width="180" height="180" alt="")
+               
+                  <h1>CADASTRO CODIGO DE ACESSO</h1>
+                     
+         <div id="cadastro">
+            <label>Codigo do Veículo:</label>
+            <input type="tel" name="codigo do veiculo" placeholder="Fornecido pela Empresa" maxlength="12"  />     
+            
+            <div>               
+                 <label>Nome Completo:</label>
+                 <input type="text" name="nome" placeholder="Ex: Bruno de almeida" autocomplete />
+          </div>
+            
+            <div>
+            <label>Telefone:</label>
+            <input type="tel" name="telefone" placeholder="Ex: (99) 99999-9999" pattern="\([0-9]{2}\)[\s][0-9]{5}-[0-9]{4}" maxlength="15" />
+            </div>
+          
+            
+            <div id="sex">           
+            <label>Sexo:</label>
+            <input type="radio" name="sexo" value="masculino" required>
+            <label>Masculino</label>
+            <input type="radio" name="sexo" value="feminino">
+            <label>Feminino</label>
+            </div>
+                     
+            <div>
+              <label>Cidade</label>
+              <input type="text" name="cidade" required />
+            </div>
+            
+         </div>
+              
+            <div id="pais">    
+             <label>Pais</label>
+              <select name="endereco_estado">
+                <option value="BR">Argentina</option>
+                <option value="PY">Brasil</option>
+                <option value="ARG">Paraguai</option>
+              </select>
+             
+            </div>
+          
+            
+            <div id="b">  
+          
+            <input type="submit" name="" value="Cadastrar">
+           
+            </div>
+         </form>
+    </body>
+</html>
+
+

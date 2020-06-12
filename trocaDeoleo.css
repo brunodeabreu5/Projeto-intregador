@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500');
+*{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  background: url(img10.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  
+  height: 100%;
+  margin:auto;
+  
+  
+}
+.sidebar {
+  position: absolute;
+  left: 0px;
+  width: 250px;
+  height: 100%;
+  background: #042331;
+  transition: all .5s ease;
+}
+.sidebar header {
+  font-size: 22px;
+  color: white;
+  line-height: 70px;
+  text-align: center;
+  background: #063146;
+  user-select: none;
+}
+
+.form-group{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fbfbfb;
+    text-shadow: 0 0 20px black;
+    margin-left: 50px;
+ 
+}
+label[id="placa"]{
+    height: 60px;
+    font-size: 50px;
+    margin-left: 80px;
+    
+}
+
+
+.general-button  {
+  margin-left: 100px;
+  border-radius: 6px;
+  background-color: #505559;
+}
+
+.general-button:before  {
+  border-radius: 6px;
+  border-bottom: 0px solid rgba(43,46,48, 0);
+  background-color: rgba(43,46,48, 0);
+}
+
+.button-content  {
+  border-radius: 0px 0px 6px 6px;
+  padding: 6px 7.5px;
+  box-shadow: 0px 0px 0px 0px rgba(43,46,48, 0);
+  color: #f8f8f8;
+}
+
+.button-text  {
+  padding: 0px 7.5px;
+  line-height: 1.2em;
+  font-size: 28px;
+}
+
+
+
+
+.general-button:hover  {
+  top: -2px;
+  transition: all 30ms;
+  -moz-transition: all 30ms;
+  -webkit-transition: all 30ms;
+  -o-transition: all 30ms;
+  background-color: #575c61;
+}
+
+.general-button:hover:before  {
+  border-bottom: 2px solid rgba(43,46,48, 0);
+  transition: all 30ms;
+  -moz-transition: all 30ms;
+  -webkit-transition: all 30ms;
+  -o-transition: all 30ms;
+}
+
+.general-button:hover .button-content  {
+  box-shadow: 0px 2px 0px 0px rgba(43,46,48, 1);
+  transition: all 30ms;
+  -moz-transition: all 30ms;
+  -webkit-transition: all 30ms;
+  -o-transition: all 30ms;
+}
+
+
+.general-button:active  {
+  background-color: #43484b;
+  box-shadow: 0px 1.4px 0px 0px rgba(31,33,35, 1) inset;
+}
+
+.general-button:active:before  {
+  top: -2px;
+  padding-bottom: 2px;
+  border-bottom: 0px solid rgba(43,46,48, 0);
+}
+
+.general-button:active .button-content  {
+  box-shadow: 0px 0px 0px 0px rgba(43,46,48, 0);
+}
+
+.general-button  {
+  display: -moz-inline-box;
+  display: inline-block;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;transition: all 0ms;
+  -moz-transition: all 0ms;
+  -webkit-transition: all 0ms;
+  -o-transition: all 0ms;position: relative;
+  top: 0px;
+  cursor: pointer;
+  text-decoration: none;
+  line-height: 1;
+}
+
+.submenu2{
+    
+    color: rgba(251, 250, 250, 0.84);
+    
+    
+}
+
+input[id="placa"] {
+    height: 30px;
+    font-size:20px;
+    
+}
+
+
+.submenu{
+  font-size: 38px;
+  height: 70%;
+  width: 100%;
+  margin-top: 100px;
+  margin-left: 250px;
+  background-color: lightblue;
+  background: #333333;
+  position: fixed;
+  line-height: 80px;
+  border-top: 60px solid rgba(255,255,255,.1);
+  border: 3px solid;
+  
+}
+
+.sidebar ul a{
+  display: block;
+  height: 100%;
+  width: 100%;
+  line-height: 65px;
+  font-size: 20px;
+  color: white;
+  padding-left: 40px;
+  box-sizing: border-box;
+  border-bottom: 1px solid black;
+  border-top: 1px solid rgba(255,255,255,.1);
+  transition: .4s;
+}
+ul li:hover a{
+  padding-left: 50px;
+}
+.sidebar ul a i{
+  margin-right: 16px;
+}
+
+/*section{
+  background: url(img7.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  transition: all .5s;
+}*/
